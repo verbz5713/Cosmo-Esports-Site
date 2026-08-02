@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmo eSports | Built by Grinders</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Chakra+Petch:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="mouse-glow"></div>
+    <div class="bg-elements" id="bg-elements"></div>
+    <div id="scroll-progress"></div>
+    <div id="scan-overlay"></div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <a href="#home" data-page="home" class="logo">
+                <span class="logo-badge">
+                    <img src="https://cdn.discordapp.com/attachments/1417171373448626276/1529832275112628434/cosmoesportslogo.gif?ex=6a6f3c55&is=6a6dead5&hm=d17b12a324d391189b0ada1f0d06c876f25de4157b8a04fe61755ca1167425b3&" class="logo-emoji" alt="Cosmo Logo">
+                </span>
+                COSMO <span style="color:white">ESPORTS</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" data-page="about">About</a></li>
+                <li><a href="#rosters" data-page="rosters">Rosters</a></li>
+                <li><a href="#team-list" data-page="team-list">Team List</a></li>
+                <li><a href="#merch" data-page="merch">Merch</a></li>
+                <li><a href="#partners" data-page="partners">Partners</a></li>
+            </ul>
+            <a href="#join" data-page="join" class="btn-join">Join Cosmo <i class="fa-solid fa-chevron-right"></i></a>
+        </nav>
+
+        <!-- ============ PAGE: HOME ============ -->
+        <section class="page active" id="page-home">
+            <header class="hero">
+                <div class="hero-tag"><i class="fa-solid fa-bolt-lightning"></i> Elite Fortnite Organization</div>
+                <h1>Built by <span class="text-gradient-cyan">Grinders.</span><br> Driven by <span class="text-gradient-pink">Ambition.</span></h1>
+                <p>Developing the next generation of Fortnite champions. Join a community that values professional consistency and elite performance.</p>
+                <div style="display:flex; justify-content:center; gap:25px; flex-wrap:wrap;">
+                    <a href="#join" data-page="join" class="btn-join" style="padding: 18px 45px; font-size: 1rem;">Join Our Roster <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#rosters" data-page="rosters" class="btn-outline">Explore Rosters</a>
+                </div>
+                <div class="stats-bar">
+                    <span><i class="fa-solid fa-trophy"></i> 7 Pro Divisions</span>
+                    <span><i class="fa-solid fa-users"></i> Global Community</span>
+                    <span><i class="fa-solid fa-crosshairs"></i> Elite Talent</span>
+                </div>
+            </header>
+        </section>
+
+        <!-- ============ PAGE: ABOUT ============ -->
+        <section class="page" id="page-about">
+            <header class="page-hero reveal">
+                <div class="hero-tag"><i class="fa-solid fa-satellite-dish"></i> Who We Are</div>
+                <h1>About <span class="text-gradient-cyan">Cosmo</span> eSports</h1>
+            </header>
+            <section class="about-section reveal">
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p>Cosmo eSports is a competitive Fortnite organization built around one idea: talent deserves a clear path to the top. We run <strong>seven structured rosters</strong>, from Grinder+ all the way up to our Pro roster, so every player - whether they're chasing their first placement or already stacking wins - knows exactly what the next step looks like.</p>
+                        <p>No shortcuts, no politics. Just consistency, reps, and results. We call it <strong>Reach Beyond</strong>, and it's less a slogan than a standard we hold every grinder in the org to, from our newest Academy signee to our Pro squad.</p>
+                    </div>
+                    <div class="pillars">
+                        <div class="pillar">
+                            <h4><i class="fa-solid fa-stairs" style="color:var(--accent-cyan); margin-right:8px;"></i>PLAYER PATHWAY</h4>
+                            <p>Seven tiers, one staircase. Every roster exists to get you ready for the next.</p>
+                        </div>
+                        <div class="pillar">
+                            <h4><i class="fa-solid fa-chart-line" style="color:var(--accent-purple); margin-right:8px;"></i>COMPETITIVE STANDARDS</h4>
+                            <p>Attendance, PR, and in-game conduct are tracked. Consistency earns you your seat.</p>
+                        </div>
+                        <div class="pillar">
+                            <h4><i class="fa-brands fa-discord" style="color:var(--accent-magenta); margin-right:8px;"></i>COMMUNITY FIRST</h4>
+                            <p>A Discord-first org where staff, coaches, and players actually talk to each other.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ============ PAGE: ROSTERS (formerly Divisions) ============ -->
+        <section class="page" id="page-rosters">
+            <header class="page-hero reveal">
+                <div class="hero-tag"><i class="fa-solid fa-layer-group"></i> The Pathway</div>
+                <h1>Competitive <span class="text-gradient-pink">Rosters</span></h1>
+                <p>Seven tiers. One clear road from your first scrim to the Pro roster.</p>
+            </header>
+            <section style="margin-bottom: 100px;">
+                <div class="divisions-grid">
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #64748b;"></div>
+                        <span class="tier-label">TIER 7</span>
+                        <h3>Grinder+</h3>
+                        <p>Entry level - build PR and prove consistency</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #22c55e;"></div>
+                        <span class="tier-label">TIER 6</span>
+                        <h3>Future Academy</h3>
+                        <p>Foundation training & competitive fundamentals</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #0ea5e9;"></div>
+                        <span class="tier-label">TIER 5</span>
+                        <h3>Academy</h3>
+                        <p>Structured development & tournament experience</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #6366f1;"></div>
+                        <span class="tier-label">TIER 4</span>
+                        <h3>Future</h3>
+                        <p>Advanced competition & PR milestones</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #a855f7;"></div>
+                        <span class="tier-label">TIER 3</span>
+                        <h3>Future 2.0</h3>
+                        <p>Refined mechanics & proven tournament consistency</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="status-bar" style="background: #e879f9;"></div>
+                        <span class="tier-label">TIER 2</span>
+                        <h3>Semi Pro</h3>
+                        <p>Competing at a semi-professional level with real results</p>
+                    </div>
+                    <div class="card tier-elite reveal">
+                        <div class="status-bar" style="background: var(--grad-purple);"></div>
+                        <span class="tier-label">TIER 1</span>
+                        <h3>Pro</h3>
+                        <p>Our top competitive roster - elite skill, elite results</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 50px;">
+                    <a href="#join" data-page="join" class="btn-join" style="padding: 18px 45px; font-size: 1rem; display: inline-flex;">Apply to a Roster <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </section>
+        </section>
+
+        <!-- ============ PAGE: TEAM LIST (formerly Roster & Staff) ============ -->
+        <section class="page" id="page-team-list">
+            <header class="page-hero reveal">
+                <div class="hero-tag"><i class="fa-solid fa-users"></i> The People</div>
+                <h1>Team List & <span class="text-gradient-cyan">Staff</span></h1>
+                <p>The founders, staff, and players building Cosmo eSports.</p>
+            </header>
+            <section class="roster-section reveal">
+                <div id="roster-content"></div>
+            </section>
+        </section>
+
+        <!-- ============ PAGE: MERCH ============ -->
+        <section class="page" id="page-merch">
+            <header class="page-hero reveal">
+                <div class="hero-tag"><i class="fa-solid fa-shirt"></i> Rep The Crest</div>
+                <h1>Merchandise</h1>
+            </header>
+            <section class="merch-section reveal">
+                <div class="merch-grid">
+                    <img src="assets/cosmo-jersey.jpg" alt="Cosmo eSports 2026/27 season jersey, front and back" class="merch-image">
+                    <div class="merch-copy">
+                        <span class="merch-tag">2026/27 SEASON</span>
+                        <h3>Official Cosmo Jerseys</h3>
+                        <p>Our 2026/27 season jersey - built for comfort in scrims and looks sharp on stream. Add your nickname and number on the back, and rep the crest with pride. <strong style="color: var(--text-main);">#FEARCOSMO</strong></p>
+                        <a href="https://discord.gg/FQ7n2QvJkC" target="_blank" class="btn-join"><i class="fa-brands fa-discord"></i> Order via Discord</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ============ PAGE: PARTNERS ============ -->
+        <section class="page" id="page-partners">
+            <header class="page-hero reveal">
+                <div class="hero-tag"><i class="fa-solid fa-handshake"></i> Backed By</div>
+                <h1>Partnerships</h1>
+                <p>The brands and communities backing Cosmo eSports.</p>
+            </header>
+            <section class="partners-section">
+                <div class="partner-card reveal">
+                    <img src="assets/risxn-logo.jpg" alt="Risxn Tweaks logo" class="partner-logo">
+                    <div class="partner-info">
+                        <h4>Risxn Tweaks</h4>
+                        <p>PC performance & optimization software for competitive gamers.</p>
+                    </div>
+                    <div class="partner-links">
+                        <a href="https://risxntweaks.com/" target="_blank" class="btn-outline" style="padding: 10px 20px; font-size: 0.8rem;">Visit Site</a>
+                        <a href="https://discord.com/invite/risxn" target="_blank" class="btn-outline" style="padding: 10px 20px; font-size: 0.8rem;"><i class="fa-brands fa-discord"></i> Discord</a>
+                    </div>
+                </div>
+
+                <div class="discount-card reveal">
+                    <div class="discount-left">
+                        <span class="discount-eyebrow"><i class="fa-solid fa-bolt"></i> RISXN x COSMO</span>
+                        <h3 class="discount-title">10<span>% OFF</span></h3>
+                        <p class="discount-copy">Cosmo players and community get a cut on Risxn Tweaks - the performance software that keeps your PC scrim-ready. Drop the code at checkout and the discount is yours.</p>
+                    </div>
+                    <div class="discount-divider"></div>
+                    <div class="discount-right">
+                        <span class="discount-label">USE CODE</span>
+                        <button type="button" class="discount-code" id="discount-code-btn" data-code="COSMO">
+                            <span>COSMO</span> <i class="fa-regular fa-copy"></i>
+                        </button>
+                        <span class="discount-hint" id="discount-hint">Tap to copy</span>
+                    </div>
+                </div>
+
+                <div class="form-container compact reveal">
+                    <h3 style="text-align: center; margin-bottom: 10px;">Apply for <span class="text-gradient-cyan">Partnership</span></h3>
+                    <p style="text-align: center; color: var(--text-dim); margin-bottom: 35px; font-size: 0.9rem;">Brand or community looking to team up with Cosmo? Tell us about you.</p>
+                    <form id="partner-form">
+                        <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">BRAND / COMMUNITY NAME</label>
+                        <input type="text" id="partner-name" placeholder="Your brand or community" required>
+
+                        <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">CONTACT EMAIL OR DISCORD</label>
+                        <input type="text" id="partner-contact" placeholder="you@example.com or username" required>
+
+                        <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">WHAT ARE YOU OFFERING?</label>
+                        <textarea rows="3" id="partner-message" placeholder="Tell us about the partnership opportunity..." required></textarea>
+
+                        <button type="submit" class="btn-submit">SUBMIT APPLICATION</button>
+                        <div id="partner-form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </section>
+        </section>
+
+        <!-- ============ PAGE: JOIN ============ -->
+        <section class="page" id="page-join">
+            <section class="form-container reveal" style="margin-top: 80px;">
+                <h2 style="text-align: center; margin-bottom: 15px;">Ready to <span class="text-gradient-cyan">Level Up?</span></h2>
+                <p style="text-align: center; color: var(--text-dim); margin-bottom: 45px;">Fill out the recruitment form and join the legacy.</p>
+                <form id="recruit-form">
+                    <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">DISCORD ID</label>
+                    <input type="text" id="recruit-discord" placeholder="e.g. grinder#0001 or @yourhandle" required>
+
+                    <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">EPIC GAMES USERNAME</label>
+                    <input type="text" id="recruit-epic" placeholder="Your Epic Games display name" required>
+
+                    <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">AGE</label>
+                    <input type="number" id="recruit-age" placeholder="Your age" min="10" max="99" required>
+
+                    <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">EMAIL ADDRESS</label>
+                    <input type="email" id="recruit-email" placeholder="you@example.com" required>
+
+                    <label style="color:var(--text-dim); font-size: 0.8rem; display:block; margin-bottom: 10px;">COMPETITIVE HISTORY</label>
+                    <textarea rows="4" id="recruit-history" placeholder="Share your earnings, PR, and goals..." required></textarea>
+
+                    <button type="submit" class="btn-submit" id="recruit-submit-btn">SUBMIT APPLICATION</button>
+                    <div id="recruit-form-status" class="form-status"></div>
+                </form>
+
+                <div class="or-divider">OR</div>
+
+                <a href="https://discord.gg/FQ7n2QvJkC" target="_blank" class="btn-outline" style="width: 100%; justify-content: center; box-sizing: border-box;">
+                    <i class="fa-brands fa-discord"></i> Apply Straight From Our Discord
+                </a>
+            </section>
+        </section>
+
+        <!-- Footer (always visible, sits below whichever page is active) -->
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <span class="logo-badge">
+                            <img src="https://cdn.discordapp.com/attachments/1417171373448626276/1529832275112628434/cosmoesportslogo.gif?ex=6a6f3c55&is=6a6dead5&hm=d17b12a324d391189b0ada1f0d06c876f25de4157b8a04fe61755ca1167425b3&" class="logo-emoji" alt="Cosmo Logo">
+                        </span>
+                        COSMO <span style="color:white">ESPORTS</span>
+                    </div>
+                    <p>A competitive Fortnite organization built by grinders, driven by ambition.</p>
+
+                    <div class="socials">
+                        <a href="https://x.com/cosmo_esportsss?s=20" target="_blank" title="X / Twitter"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                        <a href="https://www.instagram.com/p/DbQbwHksPos/?igsh=OWY0YnRjaGs3bHFl" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@cosmo_esportss" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://discord.gg/FQ7n2QvJkC" target="_blank" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>ORGANIZATION</h4>
+                    <ul>
+                        <li><a href="#about" data-page="about">About Us</a></li>
+                        <li><a href="#team-list" data-page="team-list">Team List</a></li>
+                        <li><a href="#rosters" data-page="rosters">Rosters</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>COMMUNITY</h4>
+                    <ul>
+                        <li><a href="#team-list" data-page="team-list">Staff</a></li>
+                        <li><a href="#merch" data-page="merch">Merchandise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONNECT</h4>
+                    <ul>
+                        <li><a href="https://discord.gg/FQ7n2QvJkC" target="_blank">Contact</a></li>
+                        <li><a href="#partners" data-page="partners">Sponsorships</a></li>
+                        <li><a href="#join" data-page="join">Join Cosmo</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="text-align: center; font-size: 0.75rem; color: #555; padding-top: 40px; border-top: 1px solid #111;">&copy; 2026 Cosmo eSports. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/team-list.js"></script>
+    <script src="js/forms.js"></script>
+<script>window.addEventListener("scroll",()=>{document.querySelector("nav")?.classList.toggle("scrolled",scrollY>60);});</script></body>
+</html>
