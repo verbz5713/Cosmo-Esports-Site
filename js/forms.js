@@ -3,8 +3,8 @@
 // 1. In Discord: Server Settings → Integrations → Webhooks → New Webhook
 // 2. Pick the channel applications should land in, copy the Webhook URL
 // 3. Paste it below, replacing the placeholder text
-const RECRUIT_WEBHOOK_URL = "PASTE_YOUR_RECRUITMENT_DISCORD_WEBHOOK_URL_HERE";
-const PARTNER_WEBHOOK_URL = "PASTE_YOUR_PARTNERSHIP_DISCORD_WEBHOOK_URL_HERE";
+const RECRUIT_WEBHOOK_URL = "https://discord.com/api/webhooks/1533442071141285939/PlSpmNHFplIVBKNFltbDbAqDPTor-jz1Mwu4M6FsOrhztSbMSg3bMwQ4k4sXxtEdLkDW";
+const PARTNER_WEBHOOK_URL = "https://discord.com/api/webhooks/1533442071141285939/PlSpmNHFplIVBKNFltbDbAqDPTor-jz1Mwu4M6FsOrhztSbMSg3bMwQ4k4sXxtEdLkDW";
 
 async function submitToDiscord(webhookUrl, embed, statusEl, submitBtn) {
     if (!webhookUrl || webhookUrl.startsWith("PASTE_YOUR_")) {
